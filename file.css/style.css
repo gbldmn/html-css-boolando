@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*dati header  */
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+header {
+    background-color: chocolate;
+    height: 70px;
+}   
+
+header div {
+    margin: auto;
+    color: white;
+}
