@@ -49,7 +49,6 @@ main {
     position:absolute;
     top: 10px;
     bottom: 0;
-    left: ;
     right: 0;
     width: 50px;
     height: 50px;
@@ -82,7 +81,7 @@ main {
     height: 40px;
     background-color:green;
     padding: 11px;
-    color:whit
+    color:white;
 }
 .green-2 {
     position:absolute;
@@ -112,5 +111,19 @@ footer div {
 
 h6 {
     text-decoration: line-through;
+}
+.flex-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img-b {
+    display: none;
+}
+.card-top:hover .img-a {
+     display: none;
+}
+.card-top:hover .img-b {
+    display: block;
 }
 
